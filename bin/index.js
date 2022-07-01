@@ -2,11 +2,11 @@
 
 const os = require('os'),
     platform = os.platform(),
-    win = require('../lib/win'),
     program = require('../util/commander')()
-    
+
 const platforms = {
-    win32: win
+    win32: require('../lib/win'),
+    darwin: require('../lib/darwin')
 }
 
 platforms[platform](program.opts().reset)
