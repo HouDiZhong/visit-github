@@ -1,6 +1,6 @@
 {
   "name": "visit-github",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "替换系统中的hosts文件",
   "main": "index.js",
   "bin": {
