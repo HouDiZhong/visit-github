@@ -9,6 +9,10 @@
 #### 介绍
 > 当前项目已经在mac与windows电脑运行成功，余下linux
 
+
+#### windows 
+> 使用windows系统的同学可以通过exe下的`修改hosts.exe`来操作，这个软件是一个绿色免安装的软件，操作十分简单只用两个按钮，一个修改，一个恢复。`注意：要使用管理员的方式打开，不然没有效果`
+
 #### 安装
 ```
 npm install visit-github -g
@@ -19,6 +23,9 @@ npm install visit-github -g
 > visit-github 两条功能命令
 1. `zx-github`      更新备份hosts文件，只备份第一次的hosts文件
 2. `zx-github -r`   恢复备份的hosts文件
+
+#### github
+[项目github地址](https://github.com/HouDiZhong/visit-github)
 
 
 #### 感谢
